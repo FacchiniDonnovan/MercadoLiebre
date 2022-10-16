@@ -12,4 +12,17 @@ app.listen(APP_PORT, () =>
 
 app.get('/', (req, res) => {
     res.sendFile(path.resolve('views/home.html'))
+}); /*---> HOME GET <---*/
+
+app.post('/', (req,res) => {
+    res.sendFile(path.resolve('views/home.html'))
+}); /*---> HOME POST <---*/
+
+app.get('/registrarse', (req, res) => {
+    res.sendFile(path.resolve('views/register.html'))
 });
+
+app.get('/ingresar', (req, res) => {
+    res.sendFile(path.resolve('views/login.html'))
+});
+

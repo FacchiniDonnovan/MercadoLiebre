@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MercadoLiebre | Registrarse</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="https://img.icons8.com/parakeet/48/000000/experimental-internet-parakeet.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/52073693b6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <section class="cabeza-pagina">
+            
+            <div class="logoprincipal">
+                <img class="centrado" src="images/logo-mercado-liebre.svg" alt="LogoMercadoLiebre" width="150"><br>
+            </div>
+
+            <div class="barrabusqueda" action="#" method="GET">
+                <input type="text" id="name" name="name" required minlength="1" maxlength="15" placeholder="Buscar productos, marcas...">
+                <button class="searchbutton"><i class="fa-solid fa-magnifying-glass"></i></button><br>
+            </div>
+
+        </section><br>
+        
+        <h2 class="encabezado"><i class="fa-solid fa-hand-holding-dollar"></i> Comprá en cuotas y sin tarjeta de crédito!</h2>
+
+        <nav class="navbar">
+            <ul class="navbar1">
+            <li>Ofertas</li>
+            <li>Tiendas Oficiales</li>
+            <li>Vender</li>
+            <li>Ayuda</li><br>
+            </ul>
+
+            <ul class="navbar2">
+                <li><a href="registrarse">Creá tu cuenta</a>&nbsp;&nbsp;<i class="fa-solid fa-user-plus"></i></li>
+                <li><a href="ingresar">Ingresá</a>&nbsp;&nbsp;<i class="fa-solid fa-right-to-bracket"></i></li>
+                <li>Mis compras <i class="fa-sharp fa-solid fa-basket-shopping"></i></li>
+            </ul>
+        </nav><br>
+
+        <div class="burger-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+        <br>
+
+    </header>
+
+    <img class="banner" src="images/img-home-banner.jpg" alt="Banner"><br>
+
+    <main><br>
+        
+        <h3>Crear usuario</h3><br>
+        
+        <div class="container">
+        <form method="post" action="/">
+            
+            <div class="centrar">
+                <input type="text" name="fullName" id="fullName" minlength="2" size="40" class="inputText" placeholder=" Nombre y Apellido" required>
+            
+            </div><br>
+            
+            <div class="centrar">
+                <input type="text" name="userName" id="userName" minlength="2"  size="40"  class="inputText" placeholder=" Nombre de usuario" required>
+            </div><br>
+
+            <div class="centrar">
+                <input type="email" name="email" id="email" minlength="2"  size="40"  class="inputText" placeholder=" E-Mail" required>
+            </div><br>
+            
+            <div class="centrar column">
+                <label for="birthDate"><b>Fecha de nacimiento: </label></b><br>
+                <input type="date" name="birthDate" id="birthDate" class="inputText" >
+            </div><br>
+            
+            <div class="centrar">
+                <input type="text" name="userAddress" id="userAddress"  class="inputText"  size="40" placeholder=" Domicilio" required>
+            </div><br>
+            
+            <div class="centrar column"> <p><b>Elija tipo de usuario: </p></b><br>
+                <div class="row">
+                <label class="rowcomprador labelTextSize marginRight">Comprador    <input type="radio" name="userType" value="buyer" class="rowcomprador"></label>
+                <label class="rowvendedor labelTextSize marginRight">Vendedor    <input type="radio" name="userType" value="seller" class="rowvendedor"></label>
+                </div>
+            </div><br>
+            
+            <div class="centrar column"> <p><b>Elija categorias de interés: </p></b><br>
+                <label class="labelTextSize marginRight">Electro    <input type="checkbox" name="categories" value="electro"></label><br>
+                <label class="labelTextSize marginRight">Moda    <input type="checkbox" name="categories" value="moda"></label><br>
+                <label class="labelTextSize marginRight">Hogar    <input type="checkbox" name="categories" value="hogar"></label><br>
+                <label class="labelTextSize marginRight">Jugueteria    <input type="checkbox" name="categories" value="jugueteria"></label><br>
+                <label class="labelTextSize marginRight">Vida sana    <input type="checkbox" name="categories" value="vidasana"></label>
+            </div><br>
+            
+            <div class="centrar column">
+                <label for="userPhoto"><b>Foto de perfil: </label></b><br>
+                <input type="file" accept=".jpg, .png, .jpeg" name="userPhoto" id="userPhoto">
+            </div><br>
+            
+            <div class="centrar">
+                <input type="password" name="userPassword" id="userPassword" size="40"  placeholder=" Contraseña" class="inputText" required>
+            </div><br>
+            
+            <div class="centrar">
+                <input type="password" name="confirmPassword" id="confirmPassword"  size="40"  class="inputText" placeholder=" Confirmar contraseña" required>
+            </div><br>
+            
+                <div class="buttonContainer">
+                    <button type="submit" class="button1">Entrar</button>       
+                </div> <br>
+                <div class="buttonContainer">
+                    <button type="reset" class="button1">Borrar</button>       
+                </div> 
+            </div><br><br>
+
+        </form>
+        </div>
+    </main>
+</body>
+</html>
