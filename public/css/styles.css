@@ -186,11 +186,11 @@ justify-content: center;
 }
 
 .button1 {
-    border-radius: 3px;
+    border-radius: 4px;
     text-shadow: 1px 1px 15px #adadad;
     font-family: Arial;
     font-size: 13px;
-    padding: 3px;
+    padding: 5px;
     color:white;
     background:blue;
     border: 0;
@@ -224,7 +224,11 @@ justify-content: center;
 }
 
 .inputText{
-    border:0;
+    border:1px;
+    border-color: white;
+    border-radius:4px;
+    padding:5px;
+    width:300px;
 }
 
 .labelTextSize{
@@ -238,11 +242,11 @@ justify-content: center;
 
 .rowvendedor{
     display:flex;
-    justify-content: space-around;
+    justify-content:space-around;
 }
 
-.marginRight{
-
+.marginLeft{
+    margin-left: 15px;
 }
 
 /* ---   Comienza el FOOTER   --- */
@@ -250,6 +254,7 @@ justify-content: center;
 footer{
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    align-items: center;
 
 }
 
@@ -281,18 +286,53 @@ footer{
     margin-top:3vw;
     font-size:12px;
 }
+/* ---   Mobile = 360×640   --- */
+/* ---   Tablet = 768x1024(iPad)   --- */
+/* ---   Desktop = 1336x678   --- */
 
 /* ---   Media Queries for Tablets   --- */
 
 @media (min-width: 361px) {
+
+    .centrado{
+        width: 80%;
+        height: 80%;
+
+    }
+
+    header{
+        padding:0%;
+        height: 38%;
+        position:absolute
+    }
+
+    .banner{
+        margin-top:240px;
+    }
+
     .art{
     box-shadow: 0px 0px 10px rgb(100,100,100);
     } 
+
     .descripcion{
         display:block;
     }
+
+    .encabezado{
+        font-size:18px;
+        margin:10px;
+        margin-bottom: 30px;
+    }
+
+    .barrabusqueda{
+        display:flex;
+        justify-content: center;
+    }
+
     .navbar{
         display:flex;
+        justify-content: space-between;
+        margin:5px;
     }
 
     .navbar1{
@@ -324,6 +364,14 @@ footer{
         flex-direction: row;
         flex-wrap:wrap;
         justify-content:space-between;
+    }
+
+    .searchButton{
+        width:30px;
+    }
+    
+    .searchInput{
+        width:300px;
     }
 }
 
@@ -397,5 +445,13 @@ footer{
         display:flex;
         flex-wrap:nowrap;
         justify-content: space-between;
+    }
+
+    .searchButton{
+        width:30px;
+    }
+    
+    .searchInput{
+        width:300px;
     }
 }

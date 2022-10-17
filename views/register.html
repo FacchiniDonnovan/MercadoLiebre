@@ -21,8 +21,8 @@
             </div>
 
             <div class="barrabusqueda" action="#" method="GET">
-                <input type="text" id="name" name="name" required minlength="1" maxlength="15" placeholder="Buscar productos, marcas...">
-                <button class="searchbutton"><i class="fa-solid fa-magnifying-glass"></i></button><br>
+                <input type="text" id="name" name="name"  class="searchInput" required minlength="1" maxlength="15" placeholder="Buscar productos, marcas...">
+                <button class="searchButton"><i class="fa-solid fa-magnifying-glass"></i></button><br>
             </div>
 
         </section><br>
@@ -61,7 +61,7 @@
         <form method="post" action="/">
             
             <div class="centrar">
-                <input type="text" name="fullName" id="fullName" minlength="2" size="40" class="inputText" placeholder=" Nombre y Apellido" required>
+                <input type="text" name="fullName" id="fullName" minlength="2" class="inputText" placeholder=" Nombre y Apellido" required>
             
             </div><br>
             
@@ -84,17 +84,17 @@
             
             <div class="centrar column"> <p><b>Elija tipo de usuario: </p></b><br>
                 <div class="row">
-                <label class="rowcomprador labelTextSize marginRight">Comprador    <input type="radio" name="userType" value="buyer" class="rowcomprador"></label>
-                <label class="rowvendedor labelTextSize marginRight">Vendedor    <input type="radio" name="userType" value="seller" class="rowvendedor"></label>
+                <label class="rowcomprador labelTextSize ">Comprador    <input type="radio" name="userType" value="buyer"  class="marginLeft" class="rowcomprador"></label>
+                <label class="rowvendedor labelTextSize ">Vendedor    <input type="radio" name="userType" value="seller"  class="marginLeft" class="rowvendedor"></label>
                 </div>
             </div><br>
             
             <div class="centrar column"> <p><b>Elija categorias de interés: </p></b><br>
-                <label class="labelTextSize marginRight">Electro    <input type="checkbox" name="categories" value="electro"></label><br>
-                <label class="labelTextSize marginRight">Moda    <input type="checkbox" name="categories" value="moda"></label><br>
-                <label class="labelTextSize marginRight">Hogar    <input type="checkbox" name="categories" value="hogar"></label><br>
-                <label class="labelTextSize marginRight">Jugueteria    <input type="checkbox" name="categories" value="jugueteria"></label><br>
-                <label class="labelTextSize marginRight">Vida sana    <input type="checkbox" name="categories" value="vidasana"></label>
+                <label class="labelTextSize">Electro    <input type="checkbox" class="marginLeft" name="categories" value="electro"></label><br>
+                <label class="labelTextSize">Moda    <input type="checkbox"  class="marginLeft" name="categories" value="moda"></label><br>
+                <label class="labelTextSize">Hogar    <input type="checkbox"  class="marginLeft" name="categories" value="hogar"></label><br>
+                <label class="labelTextSize">Jugueteria    <input type="checkbox"  class="marginLeft" name="categories" value="jugueteria"></label><br>
+                <label class="labelTextSize">Vida sana    <input type="checkbox"  class="marginLeft" name="categories" value="vidasana"></label>
             </div><br>
             
             <div class="centrar column">
