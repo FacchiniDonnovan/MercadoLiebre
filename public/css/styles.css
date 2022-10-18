@@ -98,6 +98,10 @@ main{
     margin-top:1vw #ebebeb;
     background-color: #fff;    
     margin: 10px 0px;
+    box-shadow: 0px 0px 3px rgb(100,100,100);
+}
+
+.art1:hover, .art2:hover, .art3:hover, .art4:hover{
     box-shadow: 0px 0px 10px rgb(100,100,100);
 }
 
@@ -106,13 +110,27 @@ main{
 }
 
 .descripcion{
-    display: none;
+    /* display: none; */
     color: #666;
-    font-size:16px
+    font-size:15px;
+}
+
+.cajaDescripcion{
+    height: 1px;
+    overflow:hidden;
+}
+.cajaDescripcion:hover{
+    height: 17px;
 }
 
 .fa-truck{
     color:green;
+    cursor:pointer;
+    transition: all 0.5s ease-in;
+
+}
+.fa-truck:hover{
+    transform: rotateZ(-90deg);
 }
 
 .precio-descuento{
@@ -153,6 +171,7 @@ main section article img{
 
 .main-article{
     position:relative;
+    height: 60px;
 }
 
 main section article i{
