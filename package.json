@@ -4,10 +4,23 @@
     "nodemon": "^2.0.20"
   },
   "scripts": {
-
     "test": "echo \"Error: no test specified\" && exit 1",
-
     "start": "node app.js"
-
-  }
+  },
+  "name": "mercadoliebre",
+  "description": "Proyecto integrador DH.",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FacchiniDonnovan/MercadoLiebre.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FacchiniDonnovan/MercadoLiebre/issues"
+  },
+  "homepage": "https://github.com/FacchiniDonnovan/MercadoLiebre#readme"
 }
