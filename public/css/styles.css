@@ -19,7 +19,7 @@ header{
     width:100%;
     height:28%;
     position:fixed;
-    z-index: 1;
+    z-index: 10;
     top:0;
 }
 
@@ -116,7 +116,7 @@ main{
 
 .cajaDescripcion{
     height: 1px;
-    overflow:hidden;
+    overflow:hidden; 
 }
 
 .cajaDescripcion:hover{

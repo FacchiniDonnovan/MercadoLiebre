@@ -2,5 +2,12 @@
   "dependencies": {
     "express": "^4.18.1",
     "nodemon": "^2.0.20"
+  },
+  "scripts": {
+
+    "test": "nodemon src/app.js",
+
+    "start": "node src/app.js"
+
   }
 }
