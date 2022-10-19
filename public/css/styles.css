@@ -80,7 +80,7 @@ main{
 }
 
 .banner{
-    margin-top:175px;
+    margin-top:185px;
     align-content: center;
     width:100%;
     height: auto;
@@ -110,7 +110,6 @@ main{
 }
 
 .descripcion{
-    /* display: none; */
     color: #666;
     font-size:15px;
 }
@@ -119,6 +118,7 @@ main{
     height: 1px;
     overflow:hidden;
 }
+
 .cajaDescripcion:hover{
     height: 17px;
 }
@@ -497,6 +497,12 @@ footer{
     .art1,.art2,.art3,.art4{
         width:20%
     }
+
+    .cajaDescripcion{
+        height: 17px;
+        overflow:visible;
+    }
+
     .productos{
         display:flex;
         flex-wrap:nowrap;
