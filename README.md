@@ -3,7 +3,4 @@ Proyecto integrador DH.
 
 Facchini Pintos, Donnovan Andrew.
 
---- MEDIA QUERIES ---
-/* ---   Mobile = 360×640   --- */
-/* ---   Tablet = 1024x768(iPad) {orientation landscape}   --- */
-/* ---   Desktop = 1336x678   --- */
+---> Se quito el position:fixed del header en mobile porque rompia las separaciones con el main.
