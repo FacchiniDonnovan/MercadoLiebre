@@ -330,9 +330,6 @@ footer{
         height: 38%;
     }
 
-    .banner{
-    }
-
     .art{
     box-shadow: 0px 0px 10px rgb(100,100,100);
     } 
@@ -430,9 +427,6 @@ footer{
     .cabeza-pagina {
         display: flex;
         flex-wrap: nowrap;
-    }
-
-    .banner{
     }
 
     .descuento{
